@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let designationElement = document.querySelector(".text-three");
 
   // Text content to animate
-  let designationText = "Data Analyst";
+  let designationText = "Data Analyst/Engineer";
 
   // Call the function to animate the text
   animateText(designationElement, designationText);
