@@ -43,7 +43,7 @@ nav {
 }
 
 .navbar ul li a:hover {
-  color: #32cd32; /* Green color for hover */
+  color: #32cd32; /* Green hover color */
 }
 
 /* Section Styling */
@@ -61,6 +61,7 @@ section {
   color: #32cd32; /* Green color for headings */
 }
 
+/* Home Section */
 .home {
   background: #111;
   display: flex;
@@ -169,15 +170,81 @@ section {
   margin-bottom: 20px;
 }
 
-.experience-section,
-.education-section,
+/* Experience Section */
+.experience-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.experience-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.experience-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+.experience-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #32cd32; /* Green color for headings */
+}
+
+.experience-box ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.experience-box ul li {
+  margin: 5px 0;
+}
+
+/* Education Section */
+.education-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.education-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.education-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+.education-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #32cd32; /* Green color for headings */
+}
+
+.education-box p {
+  font-size: 1.2rem;
+}
+
+/* Certification Section */
 .certification-section {
   margin-top: 40px;
   text-align: center;
 }
 
-.experience-boxes,
-.education-boxes,
 .certification-boxes {
   display: flex;
   flex-wrap: wrap;
@@ -185,8 +252,6 @@ section {
   justify-content: center;
 }
 
-.experience-box,
-.education-box,
 .certification-box {
   background-color: #333;
   padding: 20px;
@@ -196,27 +261,17 @@ section {
   margin-bottom: 20px;
 }
 
-.experience-box h3,
-.education-box h3,
 .certification-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #32cd32; /* Green color for headings */
 }
 
-.experience-box h4,
-.education-box p,
-.certification-box p {
-  font-size: 1.2rem;
-}
-
-.experience-box ul,
 .certification-box ul {
   list-style: none;
   padding-left: 20px;
 }
 
-.experience-box ul li,
 .certification-box ul li {
   margin: 5px 0;
 }
