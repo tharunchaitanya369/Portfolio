@@ -19,6 +19,7 @@ a {
   color: inherit;
 }
 
+/* Navigation */
 nav {
   background-color: #333;
   padding: 1rem 0;
@@ -42,17 +43,22 @@ nav {
 }
 
 .navbar ul li a:hover {
-  color: #ff6347;
+  color: #32cd32; /* Green color for hover */
 }
 
+/* Section Styling */
 section {
   padding: 60px 0;
+}
+
+.title {
+  text-align: center;
 }
 
 .title span {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ff6347;
+  color: #32cd32; /* Green color for headings */
 }
 
 .home {
@@ -82,11 +88,13 @@ section {
 
 .text-three {
   font-size: 1.5rem;
-  color: #ff6347;
+  color: #32cd32; /* Green color for accent text */
 }
 
+/* About Me Section */
 .about {
-  background-color: #1a1a1a;
+  background-color: #111;
+  color: #fff;
 }
 
 .about .content {
@@ -94,6 +102,7 @@ section {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .about .content .left {
@@ -115,6 +124,7 @@ section {
 .about .buttons {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .about .buttons button {
@@ -122,37 +132,48 @@ section {
   font-size: 1rem;
   cursor: pointer;
   border: none;
-  background-color: #ff6347;
+  background-color: #32cd32;
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about .buttons button:hover {
-  background-color: #ff4500;
+  background-color: #228b22; /* Darker green for hover */
 }
 
 .details-list {
   list-style: none;
+  text-align: center;
 }
 
 .details-list li {
   margin: 5px 0;
 }
 
+/* Skills Section */
 .skills {
   background-color: #222;
+  padding: 60px 0;
 }
 
 .skills .content {
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  color: #32cd32;
+  margin-bottom: 20px;
 }
 
 .experience-section,
 .education-section,
 .certification-section {
   margin-top: 40px;
+  text-align: center;
 }
 
 .experience-boxes,
@@ -161,7 +182,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .experience-box,
@@ -180,6 +201,7 @@ section {
 .certification-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  color: #32cd32; /* Green color for headings */
 }
 
 .experience-box h4,
@@ -199,11 +221,12 @@ section {
   margin: 5px 0;
 }
 
+/* Project Section */
 .project-boxes {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .project-box {
@@ -225,6 +248,7 @@ section {
 .project-box h3 {
   font-size: 1.5rem;
   margin-top: 15px;
+  color: #32cd32;
 }
 
 .project-box ul {
@@ -243,7 +267,7 @@ section {
 }
 
 .view-projects a {
-  color: #ff6347;
+  color: #32cd32;
   font-size: 1.2rem;
 }
 
@@ -251,8 +275,10 @@ section {
   text-decoration: underline;
 }
 
+/* Contact Section */
 .contact {
-  background-color: #1a1a1a;
+  background-color: #111;
+  color: #fff;
 }
 
 .contact .content .icons {
@@ -269,12 +295,11 @@ section {
 
 .contact .content .icons .icon i {
   font-size: 2rem;
-  color: #ff6347;
+  color: #32cd32;
 }
 
 .contact .content .icons .icon span {
   font-size: 1.2rem;
-  color: #fff;
 }
 
 .download-cv {
@@ -286,7 +311,7 @@ section {
   padding: 10px 20px;
   font-size: 1.2rem;
   cursor: pointer;
-  background-color: #ff6347;
+  background-color: #32cd32;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -294,5 +319,5 @@ section {
 }
 
 .download-cv button:hover {
-  background-color: #ff4500;
+  background-color: #228b22; /* Darker green for hover */
 }
