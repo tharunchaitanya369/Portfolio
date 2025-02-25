@@ -42,7 +42,7 @@ nav {
 }
 
 .navbar ul li a:hover {
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
 }
 
 section {
@@ -52,7 +52,7 @@ section {
 .title span {
   font-size: 3rem;
   font-weight: bold;
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
   text-align: center;
 }
 
@@ -83,7 +83,7 @@ section {
 
 .text-three {
   font-size: 1.5rem;
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
 }
 
 .about {
@@ -125,14 +125,14 @@ section {
   font-size: 1rem;
   cursor: pointer;
   border: none;
-  background-color: #ff7f00; /* Orange */
+  background-color: #ff6347;
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about .buttons button:hover {
-  background-color: #e67e00; /* Darker Orange */
+  background-color: #ff4500;
 }
 
 .details-list {
@@ -163,7 +163,7 @@ section {
 .education-section h2,
 .certification-section h2 {
   font-size: 2.5rem;
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -193,7 +193,6 @@ section {
 .certification-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #ff7f00; /* Orange */
 }
 
 .experience-box h4,
@@ -239,7 +238,6 @@ section {
 .project-box h3 {
   font-size: 1.5rem;
   margin-top: 15px;
-  color: #ff7f00; /* Orange */
 }
 
 .project-box ul {
@@ -258,7 +256,7 @@ section {
 }
 
 .view-projects a {
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
   font-size: 1.2rem;
 }
 
@@ -284,7 +282,7 @@ section {
 
 .contact .content .icons .icon i {
   font-size: 2rem;
-  color: #ff7f00; /* Orange */
+  color: #ff6347;
 }
 
 .contact .content .icons .icon span {
@@ -301,7 +299,7 @@ section {
   padding: 10px 20px;
   font-size: 1.2rem;
   cursor: pointer;
-  background-color: #ff7f00; /* Orange */
+  background-color: #ff6347;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -309,7 +307,7 @@ section {
 }
 
 .download-cv button:hover {
-  background-color: #e67e00; /* Darker Orange */
+  background-color: #ff4500;
 }
 
 /* Button for View */
@@ -319,7 +317,7 @@ section {
   font-size: 1.2rem;
   cursor: pointer;
   border: none;
-  background-color: #ff7f00; /* Orange */
+  background-color: #ff6347;
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -327,6 +325,5 @@ section {
 
 .certification-box button:hover,
 .experience-box button:hover {
-  background-color: #e67e00; /* Darker Orange */
+  background-color: #ff4500;
 }
-
