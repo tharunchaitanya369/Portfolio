@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-/* Reset some default styling */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +18,7 @@ a {
   color: inherit;
 }
 
+/* Navigation */
 nav {
   background-color: #333;
   padding: 1rem 0;
@@ -42,20 +42,25 @@ nav {
 }
 
 .navbar ul li a:hover {
-  color: #ff6347;
+  color: #ff9800; /* Orange hover color */
 }
 
+/* Section Styling */
 section {
   padding: 60px 0;
 }
 
-.title span {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #ff6347;
+.title {
   text-align: center;
 }
 
+.title span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff9800; /* Orange for headings */
+}
+
+/* Home Section */
 .home {
   background: #111;
   display: flex;
@@ -83,11 +88,13 @@ section {
 
 .text-three {
   font-size: 1.5rem;
-  color: #ff6347;
+  color: #ff9800; /* Orange for accent text */
 }
 
+/* About Me Section */
 .about {
-  background-color: #1a1a1a;
+  background-color: #111;
+  color: #fff;
 }
 
 .about .content {
@@ -95,18 +102,19 @@ section {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .about .content .left {
   flex: 1;
   padding: 20px;
-  text-align: left;
+  text-align: left; /* Ensuring left alignment */
 }
 
 .about .content .right {
   flex: 2;
   padding: 20px;
-  text-align: left;
+  text-align: right; /* Ensuring right alignment */
 }
 
 .about .content .profile-picture img {
@@ -118,6 +126,7 @@ section {
 .about .buttons {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .about .buttons button {
@@ -125,60 +134,47 @@ section {
   font-size: 1rem;
   cursor: pointer;
   border: none;
-  background-color: #ff6347;
+  background-color: #ff9800;
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about .buttons button:hover {
-  background-color: #ff4500;
+  background-color: #e68900; /* Darker orange */
 }
 
 .details-list {
   list-style: none;
+  text-align: center;
 }
 
 .details-list li {
   margin: 5px 0;
 }
 
-.skills {
-  background-color: #222;
-}
-
-.skills .content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
+/* Experience & Certification Section */
 .experience-section,
-.education-section,
 .certification-section {
-  margin-top: 40px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .experience-section h2,
-.education-section h2,
 .certification-section h2 {
   font-size: 2.5rem;
-  color: #ff6347;
-  font-weight: bold;
-  margin-bottom: 20px;
+  color: #ff9800;
 }
 
 .experience-boxes,
-.education-boxes,
 .certification-boxes {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .experience-box,
-.education-box,
 .certification-box {
   background-color: #333;
   padding: 20px;
@@ -189,16 +185,10 @@ section {
 }
 
 .experience-box h3,
-.education-box h3,
 .certification-box h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 10px;
-}
-
-.experience-box h4,
-.education-box p,
-.certification-box p {
-  font-size: 1.2rem;
+  color: #ff9800; /* Orange headings */
 }
 
 .experience-box ul,
@@ -212,11 +202,44 @@ section {
   margin: 5px 0;
 }
 
+/* Education Section */
+.education-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.education-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.education-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+.education-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ff9800; /* Orange headings */
+}
+
+.education-box p {
+  font-size: 1.2rem;
+}
+
+/* Project Section */
 .project-boxes {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .project-box {
@@ -238,6 +261,7 @@ section {
 .project-box h3 {
   font-size: 1.5rem;
   margin-top: 15px;
+  color: #ff9800;
 }
 
 .project-box ul {
@@ -256,7 +280,7 @@ section {
 }
 
 .view-projects a {
-  color: #ff6347;
+  color: #ff9800;
   font-size: 1.2rem;
 }
 
@@ -264,8 +288,10 @@ section {
   text-decoration: underline;
 }
 
+/* Contact Section */
 .contact {
-  background-color: #1a1a1a;
+  background-color: #111;
+  color: #fff;
 }
 
 .contact .content .icons {
@@ -282,48 +308,33 @@ section {
 
 .contact .content .icons .icon i {
   font-size: 2rem;
-  color: #ff6347;
+  color: #ff9800;
 }
 
 .contact .content .icons .icon span {
   font-size: 1.2rem;
-  color: #fff;
 }
 
-.download-cv {
+/* Buttons */
+.download-cv,
+.view-projects button {
   text-align: center;
   margin-top: 20px;
 }
 
-.download-cv button {
+.download-cv button,
+.view-projects button {
   padding: 10px 20px;
   font-size: 1.2rem;
   cursor: pointer;
-  background-color: #ff6347;
+  background-color: #ff9800;
   color: #fff;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
-.download-cv button:hover {
-  background-color: #ff4500;
-}
-
-/* Button for View */
-.certification-box button,
-.experience-box button {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  border: none;
-  background-color: #ff6347;
-  color: #fff;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.certification-box button:hover,
-.experience-box button:hover {
-  background-color: #ff4500;
+.download-cv button:hover,
+.view-projects button:hover {
+  background-color: #e68900; /* Darker orange */
 }
