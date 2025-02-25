@@ -338,3 +338,15 @@ section {
 .view-projects button:hover {
   background-color: #e68900; /* Darker orange */
 }
+
+
+.subheading span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.subheading {
+  text-align: center;
+}
+
